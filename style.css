@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    background-color: aliceblue;
+}
+.some-form{
+    width:400px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px gray;
+}
+.btn{
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transform: translateX(-110%);
+    border: none;
+    box-shadow: 2px 2px gray;
+}
+@media screen and (max-width:576px) {
+    .form-container{
+        align-items:center;
+        padding: 0 20px;
+    }
+    .some-form{
+        min-width:300px;
+        margin: 0 auto;
+    }
+    
+}
